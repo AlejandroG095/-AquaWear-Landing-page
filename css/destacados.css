@@ -106,5 +106,6 @@ body {
     position: fixed;
     top:10px;
     right: 0;
+    z-index: 3;
 
   }
