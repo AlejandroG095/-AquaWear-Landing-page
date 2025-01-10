@@ -57,9 +57,10 @@ body {
   }
   /*Atributos texto del precio*/
   .card-producto , .texto-precio {
-    font-size: 1rem;
     color: #072AC8;
-    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
   }
     /*Botón de comprar*/
   .boton-comprar {
@@ -92,10 +93,18 @@ body {
     font-weight: bold;
     color:#ffffff;
     margin-top: 8px;
+    font-size: medium;
   }
   
   .divisor-banner{
     font-family: 'Oswald', sans-serif;
     background-color: #1f1f1f;
     text-align: center;
+  }
+
+  #boton-carrito{
+    position: fixed;
+    top:10px;
+    right: 0;
+
   }
