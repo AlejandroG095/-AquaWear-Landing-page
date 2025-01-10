@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Sección de Productos */
 .productos-seccion {
     padding: 3rem;
     background-color: #fff;
@@ -98,6 +99,7 @@
     background-color: #1E96FC;
 }
 
+/* Media Queries para Responsividad */
 @media (max-width: 768px) {
     .productos-grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
