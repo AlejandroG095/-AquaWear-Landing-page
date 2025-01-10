@@ -9,6 +9,14 @@
     background-color: #fff;
 }
 
+.productos-titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .categoria {
     margin-bottom: 3rem;
 }
@@ -65,6 +73,7 @@
     margin-bottom: 0.5rem;
     text-align: center;
 }
+
 
 .producto-precio {
     color: #072AC8;

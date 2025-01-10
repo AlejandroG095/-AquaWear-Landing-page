@@ -30,9 +30,9 @@
             <!-- Menú de Navegación Principal -->
             <ul id="nav-menu-list">
                 <li class="nav-menu-item"><a href="#" class="nav-menu-link">Inicio</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link">Destacados</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link">Productos</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link">Nosotros</a></li>
+                <li class="nav-menu-item"><a href="#destacados-container" class="nav-menu-link">Destacados</a></li>
+                <li class="nav-menu-item"><a href="#productos-container" class="nav-menu-link">Productos</a></li>
+                <li class="nav-menu-item"><a href="#nosotros-container" class="nav-menu-link">Nosotros</a></li>
             </ul>
 
           <!-- Botón de Menú Móvil -->
@@ -61,6 +61,7 @@
             </div>
 
     <!-- Sección de productos destacados-->
+     <div id="destacados-container">
         <section class="destacados">
             <h2>Productos Destacados</h2>
             <div class="contenedor-productos">
@@ -102,58 +103,63 @@
             </div>
             </div>
         </section>
+     </div>
+        
     <!-- Productos Alejandro-->
-    <section class="productos-seccion">
-        <!-- Sección Mujer -->
-        <div class="categoria">
-            <h2 class="categoria-titulo">Mujer</h2>
-            <div class="productos-grid">
-                <div class="producto-card">
-                    <div class="imagen-producto">
-                        <img src="https://contents.mediadecathlon.com/p2375390/k$a2edd931c8700a0b52a71c97f68540da/vestido-de-bano-enterizo-mujer-natacion-kamiye-azulslashverde.jpg?format=auto&quality=40&f=800x800" alt="Producto Mujer 1" class="producto-imagen">
+    <div id="productos-container">
+        <section class="productos-seccion">
+            <h2 class="productos-titulo">Productos </h2>
+            <!-- Sección Mujer -->
+            <div class="categoria">
+                <h2 class="categoria-titulo">Mujer</h2>
+                <div class="productos-grid">
+                    <div class="producto-card">
+                        <div class="imagen-producto">
+                            <img src="https://contents.mediadecathlon.com/p2375390/k$a2edd931c8700a0b52a71c97f68540da/vestido-de-bano-enterizo-mujer-natacion-kamiye-azulslashverde.jpg?format=auto&quality=40&f=800x800" alt="Producto Mujer 1" class="producto-imagen">
+                        </div>
+                        <div class="producto-info">
+                            <h3 class="producto-nombre">Vestido natación</h3>
+                            <hr>
+                            <p class="producto-precio">$59.99</p>
+                            <button class="btn-agregar">Añadir al carrito</button>
+                        </div>
                     </div>
-                    <div class="producto-info">
-                        <h3 class="producto-nombre">Vestido natación</h3>
-                        <hr>
-                        <p class="producto-precio">$59.99</p>
-                        <button class="btn-agregar">Añadir al carrito</button>
+                    <div class="producto-card">
+                        <div class="imagen-producto">
+                            <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/00d44bea8fb04b28b52615d68d73d96c_9366/traje-de-natacion-adicolor-3-franjas.jpg" alt="Producto Mujer 1" class="producto-imagen">
+                        </div>
+                        <div class="producto-info">
+                            <h3 class="producto-nombre">Enterizo de baño</h3>
+                            <hr>
+                            <p class="producto-precio">$59.99</p>
+                            <button class="btn-agregar">Añadir al carrito</button>
+                        </div>
                     </div>
-                </div>
-                <div class="producto-card">
-                    <div class="imagen-producto">
-                        <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/00d44bea8fb04b28b52615d68d73d96c_9366/traje-de-natacion-adicolor-3-franjas.jpg" alt="Producto Mujer 1" class="producto-imagen">
+                    <div class="producto-card">
+                        <div class="imagen-producto">
+                            <img src="https://arena.vteximg.com.br/arquivos/ids/183651-0-0/11A2116-AGUA-W-CLOROEXTRA-1.png?v=638328023950430000" alt="Producto Mujer 1" class="producto-imagen">
+                        </div>
+                        <div class="producto-info">
+                            <h3 class="producto-nombre">Body lift natación</h3>
+                            <hr>
+                            <p class="producto-precio">$59.99</p>
+                            <button class="btn-agregar">Añadir al carrito</button>
+                        </div>
                     </div>
-                    <div class="producto-info">
-                        <h3 class="producto-nombre">Enterizo de baño</h3>
-                        <hr>
-                        <p class="producto-precio">$59.99</p>
-                        <button class="btn-agregar">Añadir al carrito</button>
-                    </div>
-                </div>
-                <div class="producto-card">
-                    <div class="imagen-producto">
-                        <img src="https://arena.vteximg.com.br/arquivos/ids/183651-0-0/11A2116-AGUA-W-CLOROEXTRA-1.png?v=638328023950430000" alt="Producto Mujer 1" class="producto-imagen">
-                    </div>
-                    <div class="producto-info">
-                        <h3 class="producto-nombre">Body lift natación</h3>
-                        <hr>
-                        <p class="producto-precio">$59.99</p>
-                        <button class="btn-agregar">Añadir al carrito</button>
-                    </div>
-                </div>
-                <div class="producto-card">
-                    <div class="imagen-producto">
-                        <img src="https://dojiw2m9tvv09.cloudfront.net/69760/product/relax-long-lady-1-42-034189.jpg" alt="Producto Mujer 1" class="producto-imagen">
-                    </div>
-                    <div class="producto-info">
-                        <h3 class="producto-nombre">Body lift natación</h3>
-                        <hr>
-                        <p class="producto-precio">$59.99</p>
-                        <button class="btn-agregar">Añadir al carrito</button>
+                    <div class="producto-card">
+                        <div class="imagen-producto">
+                            <img src="https://dojiw2m9tvv09.cloudfront.net/69760/product/relax-long-lady-1-42-034189.jpg" alt="Producto Mujer 1" class="producto-imagen">
+                        </div>
+                        <div class="producto-info">
+                            <h3 class="producto-nombre">Body lift natación</h3>
+                            <hr>
+                            <p class="producto-precio">$59.99</p>
+                            <button class="btn-agregar">Añadir al carrito</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+    
 
         <!-- Sección Niños -->
         <div class="categoria">
@@ -255,12 +261,15 @@
             </div>
         </div>
     </section>
+</div>
 
     <!-- About us Amalia-->
-
-    <section class="intro">
-        <h1>La historia de AquaWear</h1>
-      </section>
+    <div id ="nosotros-container">
+        <section class="intro">
+            <h2>La historia de AquaWear</h2>
+        </section>
+    </div>
+    
     
     <section class="story">
         <div class="story-container">
