@@ -14,10 +14,10 @@
 }
 
 .categoria-titulo {
-    color: #072AC8;
+    font-family: 'Oswald', sans-serif;
     font-size: 2rem;
-    margin-bottom: 1.5rem;
-    text-align: left;
+    color: #000000;
+    margin-bottom: 20px;
 }
 
 .productos-grid {
@@ -28,7 +28,8 @@
 }
 
 .producto-card {
-    background: white;
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -85,7 +86,7 @@
 }
 
 .btn-agregar:hover {
-    background-color: #A2D6F9;
+    background-color: #1E96FC;
 }
 
 @media (max-width: 768px) {
